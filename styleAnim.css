@@ -1,0 +1,26 @@
+.card_button_in_cart_indicator{
+    position: absolute;
+    top: -2px;
+    opacity: 0;
+}
+.add_to_cart{
+display: block;
+animation: fadeIn 1s ease forwards;
+    background-color: #FA8FEF;
+    border-radius: 100px;
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: -2px;
+    left: 24px;
+}
+.ringedButton_Second_variant{
+     box-shadow: -5px 5px 10px 3px rgb(217, 255, 90);
+}
+
+/* добавить таймер на току, если не указано про информацию о закинутом */
+@keyframes fadeIn {
+   0%  { opacity: 0; }
+  50% { opacity: 1; }
+  100% {opacity: 0;}
+}

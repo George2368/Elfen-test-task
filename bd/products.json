@@ -1,0 +1,505 @@
+{
+
+    "Mirrors": [
+      {
+        "name": "Kristin",
+        "category": "Зеркало напольное",
+        "text": "Функциональное зеркало для создания максимального комфорта",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "oldPrice": 200000,
+        "photo": "/assets/mirrors/elongated_wave_form_modern_mirror_light_blue_color.webp",
+        "color": "#A5D4FF",
+        "height": 30,
+        "isTopProduct": false
+      },
+      {
+        "name": "Arlene",
+        "category": "Зеркало напольное",
+        "text": "Функциональное зеркало для создания максимального комфорта",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "oldPrice": 200000,
+        "photo": "/assets/mirrors/tall_flower_form_modern_mirror_light_blue_color_wh.webp",
+        "color": "#F0B3EA",
+        "height": 30,
+        "isTopProduct": false
+      },
+      {
+        "name": "Colleen",
+        "category": "Зеркало напольное",
+        "text": "Функциональное зеркало для создания максимального комфорта",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "oldPrice": 200000,
+        "photo": "/assets/mirrors/tall_sun_form_modern_mirror_light_blue_color_white.webp",
+        "color": "#8ECDFA",
+        "height": 30,
+        "isTopProduct": false
+      },
+      {
+        "name": "Coppelia",
+        "category": "Зеркало напольное",
+        "text": "Функциональное зеркало для создания максимального комфорта",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "oldPrice": 200000,
+        "photo": "/assets/mirrors/tall_flower_form_modern_mirror_light_blue_color_wh_1_.webp",
+        "color": "#FBE4CA",
+        "height": 30,
+        "isTopProduct": false
+      },
+      {
+        "name": "Artemide",
+        "category": "Зеркало напольное",
+        "text": "Функциональное зеркало для создания максимального комфорта",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "oldPrice": 200000,
+        "photo": "/assets/mirrors/tall_wave_form_modern_mirror_light_lavender_color_1_.webp",
+        "color": "#F0B5FA",
+        "height": 30,
+        "isTopProduct": false
+      },
+      {
+        "name": "Afina",
+        "category": "Зеркало напольное",
+        "text": "Функциональное зеркало для создания максимального комфорта",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "oldPrice": 200000,
+        "photo": "/assets/mirrors/unusual_modern_tall_wide_glowing_light_mirror_wh.webp",
+        "color": "#FFD523",
+        "height": 30,
+        "isTopProduct": false
+      },
+      {
+        "name": "Greenly",
+        "category": "Зеркало напольное",
+        "text": "Функциональное зеркало для создания максимального комфорта",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "oldPrice": 200000,
+        "photo": "/assets/mirrors/unusual_modern_tall_wide_wave_glowing_light_mirror.webp",
+        "color": "#4A5B40",
+        "height": 30,
+        "isTopProduct": false
+      },
+      {
+        "name": "Sky",
+        "category": "Зеркало напольное",
+        "text": "Функциональное зеркало для создания максимального комфорта",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "oldPrice": 200000,
+        "photo": "/assets/mirrors/elongated_wave_form_modern_mirror_light_blue_color2.webp",
+        "color": "#33C9F2",
+        "height": 30,
+        "isTopProduct": false
+      },
+      {
+        "name": "Ring",
+        "category": "Зеркало напольное",
+        "text": "Функциональное зеркало для создания максимального комфорта",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "oldPrice": 200000,
+        "photo": "/assets/mirrors/unusual_modern_tall_wide_glowing_light_floor_wave_.webp",
+        "color": "#FF81C6",
+        "height": 30,
+        "isTopProduct": false
+      },
+      {
+        "name": "Ocean",
+        "category": "Зеркало напольное",
+        "text": "Функциональное зеркало для создания максимального комфорта",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "oldPrice": 200000,
+        "photo": "/assets/mirrors/unusual_modern_tall_wide_glowing_light_mirror_wh_1_.webp",
+        "color": "#031D55",
+        "height": 30,
+        "isTopProduct": false
+      }
+    ],
+    "Lamps": [
+      {
+        "name": "Aubrey",
+        "category": "Лампа настольная",
+        "text": "Функциональная дизайнерская лампа для создания максимально комфортного освещения",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "photo": "/assets/lamps/sophisticated_unusual_modern_high_lamp_wave_form_1_.webp",
+        "color": "#FFC4A5",
+        "height": 60,
+        "isTopProduct": false
+      },
+      {
+        "name": "Leslie",
+        "category": "Лампа настольная",
+        "text": "Функциональная дизайнерская лампа для создания максимально комфортного освещения",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "photo": "/assets/lamps/sophisticated_unusual_modern_high_lamp_tree_form_.webp",
+        "color": "#88E379",
+        "height": 60,
+        "isTopProduct": false
+      },
+      {
+        "name": "Darrell",
+        "category": "Лампа настольная",
+        "text": "Функциональная дизайнерская лампа для создания максимально комфортного освещения",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "photo": "/assets/lamps/sophisticated_unusual_modern_high_lamp_wave_form_3_1.webp",
+        "color": "#FA8EEF",
+        "height": 60,
+        "isTopProduct": false
+      },
+      {
+        "name": "Coppelia",
+        "category": "Лампа настольная",
+        "text": "Функциональная дизайнерская лампа для создания максимально комфортного освещения",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "photo": "/assets/lamps/sophisticated_unusual_modern_high_lamp_wave_form_2_.webp",
+        "color": "#29D0D9",
+        "height": 60,
+        "isTopProduct": false
+      },
+      {
+        "name": "Artemide",
+        "category": "Лампа настольная",
+        "text": "Функциональная дизайнерская лампа для создания максимально комфортного освещения",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "photo": "/assets/lamps/sophisticated_unusual_modern_high_lamp_wave_form_.webp",
+        "color": "#89D5FF",
+        "height": 60,
+        "isTopProduct": false
+      },
+      {
+        "name": "Artemide",
+        "category": "Лампа настольная",
+        "text": "Функциональная дизайнерская лампа для создания максимально комфортного освещения",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "photo": "/assets/lamps/sophisticated_unusual_modern_high_lamp_wave_form_.webp",
+        "color": "#89D5FF",
+        "height": 60,
+        "isTopProduct": false
+      },
+      {
+        "name": "Santa Trinita",
+        "category": "Лампа настольная",
+        "text": "Функциональная дизайнерская лампа для создания максимально комфортного освещения",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "photo": "/assets/lamps/lamp1.webp",
+        "color": "rgba(197, 176, 250, 0.7)",
+        "height": 60,
+        "isTopProduct": true
+      },
+      {
+        "name": "Flower",
+        "category": "Лампа настольная",
+        "text": "Функциональная дизайнерская лампа для создания максимально комфортного освещения",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "photo": "/assets/lamps/the_same_lamp_only_from_a_different_angle_same_col.webp",
+        "color": "#FFD523",
+        "height": 60,
+        "isTopProduct": false
+      },
+      {
+        "name": "Bee",
+        "category": "Лампа настольная",
+        "text": "Функциональная дизайнерская лампа для создания максимально комфортного освещения",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "photo": "/assets/lamps/unusual_modern_tall_wide_wave_glowing_light_lamp_1_.webp",
+        "color": "#FFD523",
+        "height": 60,
+        "isTopProduct": false
+      },
+      {
+        "name": "Steb",
+        "category": "Лампа настольная",
+        "text": "Функциональная дизайнерская лампа для создания максимально комфортного освещения",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "photo": "/assets/lamps/unusual_modern_tall_wide_wave_glowing_light_lamp_2_.webp",
+        "color": "#4A5B40",
+        "height": 60,
+        "isTopProduct": false
+      },
+      {
+        "name": "Corral",
+        "category": "Лампа настольная",
+        "text": "Функциональная дизайнерская лампа для создания максимально комфортного освещения",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "photo": "/assets/lamps/sophisticated_unusual_modern_high_lamp_wave_form_4_.webp",
+        "color": "#FF81C6",
+        "height": 60,
+        "isTopProduct": false
+      },
+      {
+        "name": "Jug",
+        "category": "Лампа настольная",
+        "text": "Функциональная дизайнерская лампа для создания максимально комфортного освещения",
+        "fabricator": "Benjamin Moore",
+        "price": 150000,
+        "photo": "/assets/lamps/unusual_modern_tall_wide_wave_glowing_light_lamp_.webp",
+        "color": "#FF81C6",
+        "height": 60,
+        "isTopProduct": false
+      }
+    ],
+    "Chears": [
+      {
+        "name": "Kathryn",
+        "category": "Кресла и стулья",
+        "text": "Функциональная дизайнерское кресло для создания максимально уюта в помещении",
+        "fabricator": "Paint Here Glory",
+        "price": 120000,
+        "photo": "/assets/chears/sophisticated_unusual_modern_high_chair_wave_form_1_.webp",
+        "color": "#FBE4CA",
+        "height": 80,
+        "isTopProduct": false
+      },
+      {
+        "name": "Wendy",
+        "category": "Кресла и стулья",
+        "text": "Функциональная дизайнерское кресло для создания максимально уюта в помещении",
+        "fabricator": "Paint Here Glory",
+        "price": 120000,
+        "photo": "/assets/chears/sophisticated_unusual_modern_high_chair_wave_form_.webp",
+        "color": "#F0B3EA",
+        "height": 80,
+        "isTopProduct": false
+      },
+      {
+        "name": "Judith",
+        "category": "Кресла и стулья",
+        "text": "Функциональная дизайнерское кресло для создания максимально уюта в помещении",
+        "fabricator": "Paint Here Glory",
+        "price": 120000,
+        "photo": "/assets/chears/tall_unusual_modern_chair_light_lavender_color_whi_1_.webp",
+        "color": "#F18EFA",
+        "height": 80,
+        "isTopProduct": false
+      },
+      {
+        "name": "Jane",
+        "category": "Кресла и стулья",
+        "text": "Функциональная дизайнерское кресло для создания максимально уюта в помещении",
+        "fabricator": "Paint Here Glory",
+        "price": 120000,
+        "photo": "/assets/chears/subtract.webp",
+        "color": "#5C544A",
+        "height": 80,
+        "isTopProduct": false
+      },
+      {
+        "name": "Darlene",
+        "category": "Кресла и стулья",
+        "text": "Функциональная дизайнерское кресло для создания максимально уюта в помещении",
+        "fabricator": "Paint Here Glory",
+        "price": 120000,
+        "photo": "/assets/chears/unusual_modern_high_chair_wave_form.webp",
+        "color": "#F0B5FA",
+        "height": 80,
+        "isTopProduct": false
+      },
+      {
+        "name": "Santa Lucina",
+        "category": "Кресла и стулья",
+        "text": "Функциональная дизайнерское кресло для создания максимально уюта в помещении",
+        "fabricator": "Paint Here Glory",
+        "price": 120000,
+        "photo": "/assets/chears/chear_trinita.webp",
+        "color": "#FA8FEF",
+        "height": 80,
+        "isTopProduct": true
+      },
+      {
+        "name": "Sollar",
+        "category": "Кресла и стулья",
+        "text": "Функциональная дизайнерское кресло для создания максимально уюта в помещении",
+        "fabricator": "Paint Here Glory",
+        "price": 120000,
+        "photo": "/assets/chears/unusual_modern_tall_wide_wave_glowing_light_chair_4_.webp",
+        "color": "#FFD523",
+        "height": 80,
+        "isTopProduct": false
+      },
+      {
+        "name": "Sunset",
+        "category": "Кресла и стулья",
+        "text": "Функциональная дизайнерское кресло для создания максимально уюта в помещении",
+        "fabricator": "Paint Here Glory",
+        "price": 120000,
+        "photo": "/assets/chears/unusual_modern_tall_wide_wave_glowing_light_chair_1_.webp",
+        "color": "#FFD523",
+        "height": 80,
+        "isTopProduct": false
+      },
+      {
+        "name": "Leaf",
+        "category": "Кресла и стулья",
+        "text": "Функциональная дизайнерское кресло для создания максимально уюта в помещении",
+        "fabricator": "Paint Here Glory",
+        "price": 120000,
+        "photo": "/assets/chears/unusual_modern_tall_wide_wave_glowing_light_chair_3_.webp",
+        "color": "#4A5B40",
+        "height": 80,
+        "isTopProduct": false
+      },
+      {
+        "name": "Afrodita",
+        "category": "Кресла и стулья",
+        "text": "Функциональная дизайнерское кресло для создания максимально уюта в помещении",
+        "fabricator": "Paint Here Glory",
+        "price": 120000,
+        "photo": "/assets/chears/unusual_modern_tall_wide_wave_glowing_light_chair_.webp",
+        "color": "#FF81C6",
+        "height": 80,
+        "isTopProduct": false
+      },
+      {
+        "name": "River",
+        "category": "Кресла и стулья",
+        "text": "Функциональная дизайнерское кресло для создания максимально уюта в помещении",
+        "fabricator": "Paint Here Glory",
+        "price": 120000,
+        "photo": "/assets/chears/unusual_modern_tall_wide_wave_glowing_light_chair_2_.webp",
+        "color": "#031D55",
+        "height": 80,
+        "isTopProduct": false
+      }
+    ],
+    "Tables": [
+      {
+        "name": "Kathryn",
+        "category": "Cтолы и тумбы",
+        "text": "Функциональный дизайнерский стол для создания максимально уюта в помещении",
+        "fabricator": "Benjamin Moore",
+        "price": 235000,
+        "photo": "/assets/tables/elongated_form_tall_modern_table_light_blue_color_2_.webp",
+        "color": "#A5D4FF",
+        "height": 140,
+        "isTopProduct": false
+      },
+      {
+        "name": "Wendy",
+        "category": "Cтолы и тумбы",
+        "text": "Функциональный дизайнерский стол для создания максимально уюта в помещении",
+        "fabricator": "Benjamin Moore",
+        "price": 235000,
+        "photo": "/assets/tables/unusual_modern_high_wide_wave_glowing_light_table_1_.webp",
+        "color": "#F0DFB3",
+        "height": 140,
+        "isTopProduct": false
+      },
+      {
+        "name": "Judith",
+        "category": "Cтолы и тумбы",
+        "text": "Функциональный дизайнерский стол для создания максимально уюта в помещении",
+        "fabricator": "Benjamin Moore",
+        "price": 235000,
+        "photo": "/assets/tables/unusual_modern_tall_wide_wave_glowing_light_table_1.webp",
+        "color": "#F88EFA",
+        "height": 140,
+        "isTopProduct": false
+      },
+      {
+        "name": "Jane",
+        "category": "Cтолы и тумбы",
+        "text": "Функциональный дизайнерский стол для создания максимально уюта в помещении",
+        "fabricator": "Benjamin Moore",
+        "price": 235000,
+        "photo": "/assets/tables/unusual_modern_high_wide_wave_glowing_light_table_2_1.webp",
+        "color": "#CACFFB",
+        "height": 140,
+        "isTopProduct": false
+      },
+      {
+        "name": "Darlene",
+        "category": "Cтолы и тумбы",
+        "text": "Функциональный дизайнерский стол для создания максимально уюта в помещении",
+        "fabricator": "Benjamin Moore",
+        "price": 235000,
+        "photo": "/assets/tables/wide_form_hight_modern_table_light_lavender_color_2_.webp",
+        "color": "#F0B5FA",
+        "height": 140,
+        "isTopProduct": false
+      },
+      {
+        "name": "Savita Lavits",
+        "category": "Cтолы и тумбы",
+        "text": "Функциональный дизайнерский стол для создания максимально уюта в помещении",
+        "fabricator": "Benjamin Moore",
+        "price": 235000,
+        "photo": "/assets/tables/tables_C.webp",
+        "color": "#A6C9FF",
+        "height": 140,
+        "isTopProduct": true
+      },
+      {
+        "name": "Light",
+        "category": "Cтолы и тумбы",
+        "text": "Функциональный дизайнерский стол для создания максимально уюта в помещении",
+        "fabricator": "Benjamin Moore",
+        "price": 235000,
+        "photo": "/assets/tables/unusual_modern_tall_wide_wave_glowing_light_table_2_.webp",
+        "color": "#FFD523",
+        "height": 140,
+        "isTopProduct": false
+      },
+      {
+        "name": "Leather",
+        "category": "Cтолы и тумбы",
+        "text": "Функциональный дизайнерский стол для создания максимально уюта в помещении",
+        "fabricator": "Benjamin Moore",
+        "price": 235000,
+        "photo": "/assets/tables/unusual_modern_tall_wide_wave_glowing_light_table_4_.webp",
+        "color": "#4A5B40",
+        "height": 140,
+        "isTopProduct": false
+      },
+      {
+        "name": "Mountain",
+        "category": "Cтолы и тумбы",
+        "text": "Функциональный дизайнерский стол для создания максимально уюта в помещении",
+        "fabricator": "Benjamin Moore",
+        "price": 235000,
+        "photo": "/assets/tables/unusual_modern_tall_wide_wave_glowing_light_table_5_.webp",
+        "color": "#4A5B40",
+        "height": 140,
+        "isTopProduct": false
+      },
+      {
+        "name": "Lake",
+        "category": "Cтолы и тумбы",
+        "text": "Функциональный дизайнерский стол для создания максимально уюта в помещении",
+        "fabricator": "Benjamin Moore",
+        "price": 235000,
+        "photo": "/assets/tables/unusual_modern_tall_wide_wave_glowing_light_table_3_.webp",
+        "color": "#031D55",
+        "height": 140,
+        "isTopProduct": false
+      },
+      {
+        "name": "Lillia",
+        "category": "Cтолы и тумбы",
+        "text": "Функциональный дизайнерский стол для создания максимально уюта в помещении",
+        "fabricator": "Benjamin Moore",
+        "price": 235000,
+        "photo": "/assets/tables/unusual_modern_tall_wide_wave_glowing_light_table_1_.webp",
+        "color": "#FF81C6",
+        "height": 140,
+        "isTopProduct": false
+      }
+    ]
+  }

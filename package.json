@@ -1,0 +1,17 @@
+{
+  "name": "elfen",
+  "version": "1.0.0",
+  "description": "testovoe zadanye",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js"
+  },
+  "type": "commonjs",
+  "keywords": [
+    "tables"
+  ],
+  "author": "George",
+  "license": "ISC"
+}
+

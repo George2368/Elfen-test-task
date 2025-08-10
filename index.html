@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemodal.css">
+    <link rel="stylesheet" href="styleAnim.css">
+    <title>Document</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=97f83626-f906-4a19-8d06-db4bf8a375a9
+    &lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Elfen lied</h1>
+        <div class="header_cover">
+            <div class="header_d">
+                <button class="catalog_container_button header_inner_component button_cansel_setting" value="tocatalog" onclick="scrollToelement(this)">
+                    <img src="/assets/dots.svg">
+                    <span class="text">Каталог</span>
+                </button>
+                <div class="news_contacts_container header_inner_component">
+                    <button class="text button_cansel_setting" value="tonews" onclick="scrollToelement(this)">Блог</button>
+                    <button class="text button_cansel_setting to_contact" onclick="showMap(this)">Контакты</button>
+                </div>
+                <div class="header_d_on_slides_component">
+                    <button class="search_header_container header_inner_component button_cansel_setting" value="searchpage" onclick="opensearchFunc(this)">
+                        <img src="/assets/search.svg">
+                        <span class="text">Поиск</span>
+                    </button>
+                    <div class="user_manipulation_container header_inner_component">
+                        <button class="button_cansel_setting" value="favoritetocartpage" onclick="openfavoritesmodal(this)"><img src="/assets/избранное.svg"></button>
+                        <button class="button_cansel_setting" value="profilepage" onclick="openProfile(this)"><img src="/assets/профиль.svg"></button>
+                        <button class="button_cansel_setting" value="shpoingcart" onclick="modalcart(this)"><img src="/assets/корзина.svg"></button>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div class="header_m"></div> 
+        </div>
+    </header>
+    <main>
+        <div class="slider_main_composition">
+            <div class="slider_main_composition_in">
+                <button class="button_cansel_setting" id="buttoninslider">01</button>
+                <div class="vertical_line"></div>
+                <button class="button_cansel_setting">03</button>
+            </div>
+        </div>
+        <div class="main_composition" id="scrollContainery">
+            
+                <div class="first_slide active_slide slide_observe" id="lampsslide">
+                <img class="lamp_photo">
+                <div class="slide_number_container">
+                    <span class="subtitle">слайд</span>
+                    <span class="numbers subtitle_numbers">01</span>
+                </div>
+                <div class="active_slide_card obs_acive_slide">
+                    <div class="lamp_day_title_container">
+                        <span class="title_day">товар дня</span>
+                        <span class="title_decoration">Benjamin Moore</span>
+                    </div>
+                   
+                        <div class="card_information_container">
+                            <h2>Santa Trinita</h2>
+                            <p>Функциональная дизайнерская лампа для создания максимально 
+                                комфортного освещения</p>
+                            <hr class="hr_main_elem">
+                            <span class="numbers">
+                                150 000 ₽
+                            </span>
+                        </div>
+                        <button class="ringed_order_button button_cansel_setting" onclick="buy(this)">
+                            <div class="ringed_order_button_in_first"></div>
+                            <div class="ringed_order_button_in_second"></div>
+                            <div class="ringed_order_button_in_title">
+                                <img src="/assets/shopping-cart.svg">
+                                <span>Купить</span> 
+                            </div>
+                        </button>
+                </div>
+                
+            </div>
+            <div class="second_slide disable_slide slide_observe" id="chearsslide">
+                <img class="lamp_photo" >
+                <div class="slide_number_container">
+                    <span class="subtitle">слайд</span>
+                    <span class="numbers subtitle_numbers">02</span>
+                </div>
+                <div class="disable_slide_card obs_acive_slide">
+                    
+                    <div class="lamp_day_title_container">
+                        <span class="title_day">товар дня</span>
+                        <span class="title_decoration">Benjamin Moore</span>
+                    </div>
+                   
+                        <div class="card_information_container">
+                            <h2>Santa Trinita</h2>
+                            <p>Функциональная дизайнерская лампа для создания максимально 
+                                комфортного освещения</p>
+                            <hr class="hr_main_elem">
+                            <span class="numbers">
+                                150 000 ₽
+                            </span>
+                        </div>
+                        <button class="ringed_order_button button_cansel_setting" onclick="buy(this)">
+                            <div class="ringed_order_button_in_first"></div>
+                            <div class="ringed_order_button_in_second"></div>
+                            <div class="ringed_order_button_in_title">
+                                <img src="/assets/shopping-cart.svg">
+                                <span>Купить</span> 
+                            </div>
+                        </button>
+                </div>
+            </div>
+            <div class="third_slide disable_slide slide_observe" id="tablessslide">
+                <img class="lamp_photo">
+                <div class="slide_number_container">
+                    <span class="subtitle">слайд</span>
+                    <span class="numbers subtitle_numbers">03</span>
+                </div>
+                <div class="disable_slide_card obs_acive_slide">
+                    
+                    <div class="lamp_day_title_container">
+                        <span class="title_day">товар дня</span>
+                        <span class="title_decoration">Benjamin Moore</span>
+                    </div>
+                   
+                        <div class="card_information_container">
+                            <h2>Santa Trinita</h2>
+                            <p>Функциональная дизайнерская лампа для создания максимально 
+                                комфортного освещения</p>
+                            <hr class="hr_main_elem">
+                            <span class="numbers">
+                                150 000 ₽
+                            </span>
+                        </div>
+                        <button class="ringed_order_button button_cansel_setting" onclick="buy(this)">
+                            <div class="ringed_order_button_in_first"></div>
+                            <div class="ringed_order_button_in_second"></div>
+                            <div class="ringed_order_button_in_title">
+                                <img src="/assets/shopping-cart.svg">
+                                <span>Купить</span> 
+                            </div>
+                        </button>
+                </div>
+            </div>
+            
+            <dialog class="product_modal_container" id="cardmodal" >
+               
+            </dialog>
+            <dialog id="shpoingcart"  class="dialog_composition">
+                <div class="dialog_composition_backdrop_cover">
+                    <div class="dialog_composition_backdrop"></div>
+                  <div class="dialog_composition_backdrop_cover_in">  <button class="close_dialog button_cansel_setting" value="shpoingcart" onclick="closedialog(this)"><img src="/assets/x.svg"></button>
+                    <div class="dialog_composition_cover">
+                        <h3 class="title_dialog">Ваша корзина</h3>
+                    <div class="dailog_composition_in">
+                        <div class="shoping_cart_container">
+                            
+                        </div>
+                        <div class="order_container_in">
+                            <div class="order_container_in_total_price">
+                                <span>Итого:</span>
+                                <span class="end_price_shop"></span>
+                            </div>
+                            <button class="one_ringed_order_button_shop button_cansel_setting" onclick="buyItems(this)">
+                                <div class="ringed_order_button_in_first ringed_order_button_in_shop"></div>
+                                <div class="ringed_order_button_in_title ringed_order_button_in_title_one_circle">
+                                    <span>Оформить</span>
+                                    
+                                </div>
+                            </button>
+                        </div></div>
+                    </div>
+                    </div>
+                </div>
+            
+            </dialog>
+            <dialog class="favorite_to_cart_page dialog_composition" id="favoritetocartpage">
+                <div class="dialog_composition_backdrop_cover">
+                    <div class="dialog_composition_backdrop"></div>
+                  <div class="dialog_composition_backdrop_cover_in"><button class="close_dialog button_cansel_setting" value="favoritetocartpage" onclick="closedialog(this)"><img src="/assets/x.svg"></button>
+                    <div class="dialog_composition_cover dialog_composition_cover_favor">
+                        <h3 class="title_dialog">Товары в избранном</h3>
+                    <div class="dailog_composition_in">
+                        <div class="favorite_cart_container">
+                            
+                        </div>
+                       </div> 
+                    </div>
+                    </div>
+                </div>
+           
+        </dialog>
+        <dialog class="dialog_composition" id="profilepage">
+            <div class="dialog_composition_backdrop_cover">
+                <div class="dialog_composition_backdrop"></div>
+              <div class="dialog_composition_backdrop_cover_in logasf_cover_in"><button class="close_dialog button_cansel_setting" value="profilepage" onclick="closedialog(this)"><img src="/assets/x.svg"></button>
+                <div class="dialog_composition_cover dialog_composition_cover_favor">
+                    <h3 class="title_dialog form_title_dialog">Вход</h3>
+                <div class="dailog_composition_in">
+                    <div class="favorite_cart_container" id="registrationF">
+                        <form class="autor_form login_form"  id="logForm">
+                            <input type="email" placeholder="E-mail" name="Email" class="logIn">
+                            <input type="password" placeholder="Пароль" name="Password" class="logIn">
+                            <button class="one_ringed_order_button_shop autor_form_button autor_form_button_log button_cansel_setting" type="submit">
+                                <div class="ringed_order_button_in_first ringed_order_button_in_autor"></div>
+                                <div class="ringed_order_button_in_title ringed_order_button_in_title_one_circle">
+                                    <span>Войти</span>
+                                    
+                                </div>
+                            </button>
+                        </form>
+                        <button onclick="changeReg(this)" class="button_cansel_setting" id="registration"><span class="regSpanDisplay">нет аккаунта?</span>
+                            <span class="registration_span_for_after">Регистрация</span></button>
+                    </div>
+                    <div class="favorite_cart_container wshowchane" id="loginF">
+                        <form class="autor_form reg_form" id="regForm">
+                            <input type="email" placeholder="E-mail" id="emailR" name="Email" class="RegIn">
+                            <input type="password" placeholder="Пароль" id="passwordR" name="Password" class="RegIn">
+                            <input type="password" placeholder="Повторите пароль" id="conFpasswordR" class="RegIn">
+                            <button class="one_ringed_order_button_shop autor_form_button  autor_form_button_reg button_cansel_setting" type="submit">
+                                <div class="ringed_order_button_in_first ringed_order_button_in_autor"></div>
+                                <div class="ringed_order_button_in_title ringed_order_button_in_title_one_circle">
+                                    <span>Регистрация</span>
+                                    
+                                </div>
+                            </button>
+                        </form>
+                        <button onclick="changeReg(this)" class="button_cansel_setting" id="login"><span>вход</span></button>
+                    </div>
+                   </div>
+                </div>
+                </div>
+            </div>
+        </dialog>
+        <dialog class="search_section" id="searchpage">
+            <header>
+                <h1 class="logo">Elfen lied</h1>
+                <div class="header_cover">
+                    <div class="header_d">
+                        <button class="catalog_container_button header_inner_component button_cansel_setting">
+                            <img src="/assets/dots.svg">
+                            <span class="text">Каталог</span>
+                        </button>
+                        <div class="news_contacts_container header_inner_component">
+                            <a class="text">Блог</a>
+                            <button class="text button_cansel_setting to_contact" onclick="showMap(this)">Контакты</button>
+                        </div>
+                        <div class="header_d_on_slides_component">
+                            <button class="search_header_container header_inner_component button_cansel_setting" value="searchpage" onclick="opensearchFunc(this)">
+                                <img src="/assets/search.svg">
+                                <span class="text">Поиск</span>
+                            </button>
+                            <div class="user_manipulation_container header_inner_component">
+                                <button class="button_cansel_setting" value="favoritetocartpage" onclick="openfavoritesmodal(this)"><img src="/assets/избранное.svg"></button>
+                                <button class="button_cansel_setting" value="profilepage" onclick="openProfile(this)"><img src="/assets/профиль.svg"></button>
+                                <button class="button_cansel_setting" value="shpoingcart" onclick="modalcart(this)"><img src="/assets/корзина.svg"></button>
+        
+                            </div>
+                        </div>
+        
+                    </div>
+                    <div class="header_m"></div>
+                </div>
+            </header>
+            <div class="saerch_container">
+                <div class="search_elem_container"><img src="/assets/searche.svg"></div>
+                <input class="search_elem" type="text" id="searcharea">
+                <button class="button_cansel_setting" value="searchpage" onclick="closedialog(this)"><img src="/assets/x.svg"></button>
+            </div>
+            <div class="search_result">
+                <h2>результаты поиска</h2>
+                <div class="search_result_container"></div>
+            </div>
+        </dialog>
+        <dialog class="map_dialog" id="mapPage">
+            <div class="map_dialog_in">
+                <div class="dialog_left_up">
+                    <div class="dialog_left_up_in">
+                        <span class="titleHeadMap titleHeadMapone">Адрес</span>
+                        <span class="titleHeadMap titleHeadMapsecond">Телефон</span>
+                        <div class="information_map_block information_map_blockone">
+                            <h1>Москва</h1>
+                            <p>Хохловский переулок д. 11, стр. 3</p>
+                        </div>
+                        <div class="information_map_block information_map_blocksecond">
+                            <h1 class="information_map_block_tel">+7 (495) 621-26-17</h1>
+                            <p class="information_map_block_p">Ответим на все вопросы</p>
+                        </div>
+                        <div class="map_buttons_in map_buttons_in_adres"><div>Адрес на карте</div><img src="/assets/socialAssets/Arrow 4.svg"></div>
+
+                      
+                        <div class="map_buttons_in map_buttons_inel">
+                            <a><img src="/assets/socialAssets/telegramm.svg"></a>
+                            <a><img src="/assets/socialAssets/twitter.svg"></a>
+                            <a><img src="/assets/socialAssets/in.svg"></a>
+                            <a><img src="/assets/socialAssets/Facebook.svg"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dialog_right_up">
+                    <button class="close_dialog button_cansel_setting close_dialog_form_callback" value="mapPage" onclick="closedialog(this)"><img src="/assets/x.svg"></button>
+                    <div class="dialog_right_up_in">
+                        <span class="subtitle">Форма обратной связи</span>  
+                        <form class="form_back_action" name="callbackForm_incontant" action="">
+                            <input type="email" placeholder="E-mail">
+                            <input type="password" placeholder="Пароль">
+                            <button class="one_ringed_order_button_shop button_cansel_setting" onclick="sendForm(this)">
+                                <div class="ringed_order_button_in_first ringed_order_button_in_fomvcallback"></div>
+                                <div class="ringed_order_button_in_title ringed_order_button_in_title_one_circle">
+                                    <span>Отправить</span>
+                                    
+                                </div>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="dialog_down">
+                    <div id="map" style="width: 100%; height: 100%"></div>
+                </div>
+            </div>
+        </dialog>
+        <dialog id="makeoreder" class="makeOrderPage">
+             <header>
+                <h1 class="logo">Elfen lied</h1>
+                <div class="header_cover">
+                    <div class="header_d">
+                        <button class="catalog_container_button header_inner_component button_cansel_setting">
+                            <img src="/assets/dots.svg">
+                            <span class="text">Каталог</span>
+                        </button>
+                        <div class="news_contacts_container header_inner_component">
+                            <a class="text">Блог</a>
+                            <button class="text button_cansel_setting to_contact" onclick="showMap(this)">Контакты</button>
+                        </div>
+                        <div class="header_d_on_slides_component">
+                            <button class="search_header_container header_inner_component button_cansel_setting" value="searchpage" onclick="opensearchFunc(this)">
+                                <img src="/assets/search.svg">
+                                <span class="text">Поиск</span>
+                            </button>
+                            <div class="user_manipulation_container header_inner_component">
+                                <button class="button_cansel_setting" value="favoritetocartpage" onclick="openfavoritesmodal(this)"><img src="/assets/избранное.svg"></button>
+                                <button class="button_cansel_setting" value="profilepage" onclick="openProfile(this)"><img src="/assets/профиль.svg"></button>
+                                <button class="button_cansel_setting" value="shpoingcart" onclick="modalcart(this)"><img src="/assets/корзина.svg"></button>
+        
+                            </div>
+                        </div>
+        
+                    </div>
+                    <div class="header_m"></div>
+                </div>
+            </header>
+            <div class="makeOrderPage_Inner_Container">
+                <button class="close_dialog button_cansel_setting class900 makeorederClass" value="makeoreder" onclick="closedialog(this)"><img src="/assets/x.svg"></button>
+                <div class="makeOrderPage_Inner_Container_left">
+                    <h1>Оформление заказа</h1>
+                    <form class="form_back_action form_back_action_makeoreder" id="orderFormFinal">
+                        <input class="input_makeOrder" type="text" placeholder="Ваше имя">
+                        <input class="input_makeOrder" type="text" placeholder="Адрес">
+                        <input class="input_makeOrder" type="tel" placeholder="Телефон">
+                        <button class="one_ringed_order_button_shop button_cansel_setting" onclick="loginFunc(this)">
+                            <div class="ringed_order_button_in_first ringed_order_button_in_autor"></div>
+                            <div class="ringed_order_button_in_title ringed_order_button_in_title_one_circle">
+                                <span>Заказать</span>
+                                
+                            </div>
+                        </button>
+                    </form>
+                </div>
+             
+                    <div id="shpoingcartOreder"  class="makeOrderPage_Inner_Container_right">
+                        <div class="dialog_composition_backdrop_cover">
+                            <div class="dialog_composition_backdrop"></div>
+                          <div class="dialog_composition_backdrop_cover_in">  
+                            <button class="close_dialog button_cansel_setting class900 showMoreButton"  onclick="showMore(this)"><img src="/assets/ugol.svg"></button>
+                            <button class="close_dialog button_cansel_setting class900Up" value="makeoreder" onclick="closedialog(this)"><img src="/assets/x.svg"></button>
+                            <div class="dialog_composition_cover">
+                                <h3 class="title_dialog">Ваша корзина</h3>
+                            <div class="dailog_composition_in">
+                                <div class="shoping_cart_container shpoingcartOreder_container">
+                                    
+                                </div>
+                                <div class="order_container_in">
+                                    <div class="order_container_in_total_price">
+                                        <span>Итого:</span>
+                                        <span class="end_price_shop"></span>
+                                    </div>
+                                    <button class="one_ringed_order_button_shop button_cansel_setting" onclick="order(this)" form="orderFormFinal">
+                                        <div class="ringed_order_button_in_first ringed_order_button_in_shop"></div>
+                                        <div class="ringed_order_button_in_title ringed_order_button_in_title_one_circle">
+                                            <span>Оформить</span>
+                                            
+                                        </div>
+                                    </button>
+                                </div></div>
+                            </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+
+            
+        </dialog>
+        <dialog id="sucsessFullPage" class="sucsess_Full_Page">
+            <div class="layers_container">
+                <div class="first_Layer">
+                    <div class="first_Layer_left">ваш Заказ оформлен</div>
+                    <div class="first_Layer_right">Спасибо за заказ </div>
+                    <div class="first_Layer_center">
+                        <div class="first_Layer_center_thanks">thank you</div>
+                        <div class="first_Layer_center_thanks">thank you</div>
+                        <div class="first_Layer_center_thanks">thank you</div>
+                    </div>
+                </div>
+                <div class="second_Layer">
+                    <img src="/assets/lamps/sophisticated_unusual_modern_high_lamp_wave_form_3_1.webp">
+                    <img src="/assets/lamps/sophisticated_unusual_modern_high_lamp_wave_form_1_.webp">
+                    <img src="/assets/lamps/lamp1.webp">
+                    <img src="/assets/lamps/sophisticated_unusual_modern_high_lamp_wave_form_2_.webp">
+                    <img src="/assets/lamps/sophisticated_unusual_modern_high_lamp_tree_form_.webp">
+                </div>
+            </div>
+        </dialog>
+        </div>
+      
+        <div class="main_categories slide_observe" id="tocatalog">
+            <h1>категории</h1>
+            <div class="main_categories_cards_container scroll-container" id="scrollContainer">
+                <div class="main_categories_card">
+                    <h2 class="main_categories_card_title">напольные
+                        <br>
+                        зеркала</h2>
+                    <img class="main_categories_card_img" src="/assets/mirror.png">
+                    <div class="main_categories_count_container">
+                        <span class="numbers" id="quentityMirrors"></span>
+                        <span class="subtitle">шт</span>
+                    </div>
+                    <svg class="circle_text" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+                        <g transform="rotate(-140,140,125)">
+                          <path id="textPath" d="M60,70 a100, 98 0 1,1 0,370"></path>
+                          <text><textPath font-size="0.88889rem" fill="#FFFFFF" href="#textPath" startOffset="12"><tspan dy="-2.4em">изготовление на заказ</tspan></textPath>
+                          </text>
+                        </g>
+                       </svg>
+                    <button class="button_card_category button_cansel_setting" id="Mirrors" onclick="categoryButtonActivate(this)"><img></button>
+                </div>
+            
+           
+                <div class="main_categories_card">
+                    <h2 class="main_categories_card_title">торшеры
+                        <br>
+                        и лампы
+                        </h2>
+                    <img class="main_categories_card_img" src="/assets/lamp.png">
+                    <div class="main_categories_count_container">
+                        <span class="numbers" id="quentityLamps"></span>
+                        <span class="subtitle">шт</span>
+                    </div>
+                    <svg class="circle_text" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+                        <g transform="rotate(-140,140,125)">
+                          <path id="textPath" d="M60,70 a100, 98 0 1,1 0,370"></path>
+                          <text><textPath font-size="0.88889rem" fill="#FFFFFF" href="#textPath" startOffset="12"><tspan dy="-2.4em">изготовление на заказ</tspan></textPath>
+                          </text>
+                        </g>
+                       </svg>
+                    <button class="button_card_category button_cansel_setting" id="Lamps" onclick="categoryButtonActivate(this)"><img></button>
+                </div>
+           
+            
+                <div class="main_categories_card">
+                    <h2 class="main_categories_card_title">кресла<br>
+                        и стулья</h2>
+                    <img class="main_categories_card_img" src="/assets/chear.png">
+                    <div class="main_categories_count_container">
+                        <span class="numbers" id="quentityChears"></span>
+                        <span class="subtitle">шт</span>
+                    </div>
+                    <svg class="circle_text" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+                        <g transform="rotate(-140,140,125)">
+                          <path id="textPath" d="M60,70 a100, 98 0 1,1 0,370"></path>
+                          <text><textPath font-size="0.88889rem" fill="#FFFFFF" href="#textPath" startOffset="12"><tspan dy="-2.4em">изготовление на заказ</tspan></textPath>
+                          </text>
+                        </g>
+                       </svg>
+                    <button class="button_card_category button_cansel_setting" id="Chears" onclick="categoryButtonActivate(this)"><img></button>
+                </div>
+         
+            
+                <div class="main_categories_card">
+                    <h2 class="main_categories_card_title">столы
+                        <br>
+                        и тумбы</h2>
+                    <img class="main_categories_card_img" src="/assets/table.png">
+                    <div class="main_categories_count_container">
+                        <span class="numbers" id="quentityTables"></span>
+                        <span class="subtitle">шт</span>
+                    </div>
+                    <svg class="circle_text" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+                        <g transform="rotate(-140,140,125)">
+                          <path id="textPath" d="M60,70 a100, 98 0 1,1 0,370"></path>
+                          <text><textPath font-size="0.88889rem" fill="#FFFFFF" href="#textPath" startOffset="12"><tspan dy="-2.4em">изготовление на заказ</tspan></textPath>
+                          </text>
+                        </g>
+                       </svg>
+                    <button class="button_card_category button_cansel_setting" id="Tables" onclick="categoryButtonActivate(this)"><img></button>
+                </div>
+                
+            </div>
+            <div class="cards_product_container_cover">
+                <div class="cards_product_container_setting_container_cover" >
+                    <div class="cards_product_container_setting_container">
+                      
+                    </div>
+                    <div class="fiter_container" id="settinincludearea">
+                  
+                    </div>
+                   
+                </div>
+                
+                <div class="cards_product_container">
+
+                </div>
+                <button class="ringed_order_button one_ringed_order_button button_cansel_setting" onclick="appendProductCards(this)">
+             
+                </button>
+                
+            </div>
+        </div>
+        <div style="overflow-x: hidden; width:100vw; padding:0px">
+            <div class="ribbon_promo_container">
+                <div class="first_ribbon" id="firstRibbon">
+                </div>
+                <div class="second_ribbon" id="secondRibbon">
+                </div>
+                
+            </div>
+        </div>
+    
+    <section class="main_news_block">
+        <div class="main_news_block_header" id="tonews">
+            <div>
+                <div class="buttons_news">
+
+                </div>
+                <h2 class="main_categories_card_titl">Блог</h2>
+            </div>
+           
+            <div class="slide_number_section">
+                <button id="minusbutton" onclick="slider(this.id)" class="numbers subtitle_numbers news_number button_cansel_setting disactive">01</button>
+                <hr>
+                <button id="plusbutton" onclick="slider(this.id)" class="numbers subtitle_numbers news_number button_cansel_setting">04</button>
+            </div>
+        </div>
+        <div class="main_news_block_body">
+            <div class="main_news_block_body_card_news_block">
+                
+            </div>
+        </div>
+    </section>
+    </main>
+   
+    <footer>
+        <span class="yeardate">@2023</span>
+        <a href="https://requestdesign.ru/testovoe-zadanie/front-end-verstalshchik-v-veb-studii"><img src="/assets/requestdesign.svg"></a>
+        <span class="rightsInFooter">Все права защищены</span>
+    </footer>
+    <script src="/products.js"></script>
+    <script src="/script.js"></script>
+    <script src="/news.js"></script>
+    <script src="/shop.js"></script>
+    <script src="/maincomposition.js"></script>
+    <script src="/favorites.js"></script>
+    <script src="/modalcard.js"></script>
+    <script src="/profile.js"></script>
+    <script src="/search.js"></script>
+    <script src="/contact.js"></script>
+    <script src="/addtoCartAnim.js"></script>
+    <script src="/scriptsuccses.js"></script>
+    <script type="text/javascript">
+        // Функция ymaps.ready() будет вызвана, когда
+        // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+        ymaps.ready(init);
+        function init(){
+            // Создание карты.
+            var myMap = new ymaps.Map("map", {
+                // Координаты центра карты.
+                // Порядок по умолчанию: «широта, долгота».
+                // Чтобы не определять координаты центра карты вручную,
+                // воспользуйтесь инструментом Определение координат.
+                center: [55.756756, 37.643408],
+                // Уровень масштабирования. Допустимые значения:
+                // от 0 (весь мир) до 19.
+                zoom: 15
+            });
+            var myGeoObject = new ymaps.Placemark([55.756756, 37.643408], {}, {
+                iconLayout: 'default#image',
+                iconImageClipRect: [[50,60], [50, 90]],
+                iconImageHref: '/assets/Yandex logo 1.svg',
+                iconImageSize: [70, 96],
+                iconImageOffset: [-70, -96]
+            });
+            
+            // Размещение геообъекта на карте.
+            myMap.geoObjects.add(myGeoObject); 
+        }
+    </script>
+</body>
+</html>
